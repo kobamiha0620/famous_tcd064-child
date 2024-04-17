@@ -1,0 +1,431 @@
+@charset "UTF-8";
+/*
+Theme Name:child for FAMOUS_2404 
+Theme URI:https://tcd-theme.com/tcd064
+Description:WordPress theme "FAMOUS" is developed for creators and artists to showcase their personal portfolios. And all the pages (ABOUT, WORKS, VOICE) implemented in the theme make your work stand out.
+Author:Miharu
+Author URI:https://tcd-theme.com/
+Version:1.0
+Template: famous_tcd064
+*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&display=swap");
+.c-menu-button {
+  background-image: url("http://chatmonster.jp/wp-content/uploads/2024/04/menu.png");
+  background-size: cover;
+}
+.c-menu-button::before {
+  content: "";
+}
+
+.l-footer {
+  background: #f4f4f4;
+}
+@media only screen and (max-width: 768px) {
+  .l-footer {
+    padding: 30px 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .p-footer-info {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body.home .p-footer-info--no-bg {
+    padding-top: 0;
+  }
+}
+.p-cb__item-desc p:last-child {
+  line-height: 1.6;
+}
+@media only screen and (max-width: 768px) {
+  .p-cb__item-desc p:last-child br {
+    display: none;
+  }
+}
+
+#cb_1 .p-cb__item-desc2 p {
+  line-height: 1.6;
+}
+
+.p-index-about__images .p-index-about__image {
+  width: 220px;
+}
+@media only screen and (max-width: 768px) {
+  .p-index-about__images {
+    display: flex;
+  }
+  .p-index-about__images .p-index-about__image {
+    width: 30%;
+  }
+}
+
+.btmabout {
+  margin-top: -80px;
+}
+.btmabout li {
+  line-height: 1.6;
+  font-size: 14px;
+}
+@media only screen and (max-width: 991px) {
+  .btmabout {
+    margin-top: 0;
+  }
+}
+
+#cb_1 {
+  padding-bottom: 20px;
+}
+
+.p-entry__body p.topSubttl {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: -4px auto 34px;
+}
+@media only screen and (max-width: 768px) {
+  .p-entry__body p.topSubttl {
+    font-size: 30px;
+    margin: -4px auto 18px;
+  }
+}
+
+.p-entry__body ul {
+  margin-left: 0;
+  margin: 0;
+}
+
+.wpcf7 {
+  border: none;
+  background-color: #FFF;
+}
+.wpcf7 form {
+  margin: 0;
+}
+.wpcf7 .p-entry__body ul {
+  margin-left: 0;
+  margin: 0;
+}
+.wpcf7 p.chatInquiery__list--ttl {
+  font-size: 18px;
+  margin: 0 0 8px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.wpcf7 input {
+  border: none;
+  border-bottom: solid 1px #000;
+}
+.wpcf7 textarea {
+  border: solid 1px #000;
+}
+.wpcf7 select {
+  width: 100%;
+  border: none;
+  border-bottom: solid 1px #000;
+}
+
+.chatInquiery {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+.chatInquiery__list {
+  margin: 0;
+}
+.chatInquiery__list li {
+  list-style-type: none;
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 768px) {
+  .p-entry__body p.chatInquiery__notice {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: -28px;
+  }
+}
+.p-entry__body p.big__txt--ttl {
+  font-weight: 700;
+  line-height: 148%;
+  color: #000;
+  font-size: 50px;
+  letter-spacing: 0.2em;
+  margin-bottom: 40px;
+}
+
+.p-entry__body p.big__txt {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 180%;
+  margin-bottom: 26px;
+}
+
+body.home .p-cb__item {
+  margin-bottom: 15px !important;
+}
+
+.big__txt--list {
+  max-width: 957px;
+  border-radius: 15px;
+  padding: 35px 39px;
+  background: #FFF;
+  color: #000;
+  margin-top: 40px;
+}
+.big__txt--list ol {
+  margin-bottom: 0;
+}
+.big__txt--list li {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  margin-bottom: 23px;
+  color: #000;
+}
+.big__txt--list li:last-child {
+  margin-bottom: 0;
+}
+.big__txt--list li br {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .p-entry__body p.big__txt--ttl {
+    font-size: 6.4vw;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+  }
+  .p-entry__body p.big__txt {
+    font-size: 14px;
+    line-height: 180%;
+    margin-bottom: 10px;
+  }
+  .p-entry__body p.big__txt br {
+    display: none;
+  }
+  .p-entry__body div.big__blc {
+    max-width: 980px !important;
+    margin: 0 auto;
+  }
+  .big__txt--list {
+    border-radius: 10px;
+    padding: 20px 23px;
+    margin-top: 26px;
+  }
+  .big__txt--list ol {
+    margin-bottom: 0;
+  }
+  .big__txt--list li {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  .big__txt--list li:last-child {
+    margin-bottom: 0;
+  }
+  .big__txt--list li br {
+    display: block;
+  }
+  .big__txt--list li span {
+    font-size: 0.8em;
+  }
+}
+body.home .l-main {
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 991px) {
+  body.home #cb_7.p-cb__item:last-child {
+    padding-bottom: 0;
+  }
+  body.home .l-main {
+    padding-bottom: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .p-header-content__mobile-arrow::before {
+    content: "";
+  }
+}
+.googleMap {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 75%; /* 比率を4:3に固定 */
+}
+
+/* Google googleMapのiframe */
+.googleMap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.p-blog-archive__item::after {
+  border-bottom: none;
+}
+
+.companyinfo {
+  max-width: 1180px;
+  width: 88.8888%;
+  margin: 0 auto;
+}
+.companyinfo__table {
+  border-spacing: 0;
+  border: none;
+}
+.companyinfo__table tr {
+  border-bottom: 1px solid #ccc;
+}
+.companyinfo__table td {
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.companyinfo__ttl {
+  font-weight: bold;
+  min-width: 200px;
+  font-size: 18px;
+}
+.companyinfo__txt {
+  font-size: 16px;
+}
+.companyinfo .p-cb__item-button__wrapper {
+  margin: 34px auto 60px;
+}
+.companyinfo .p-cb__item-button__wrapper a {
+  background-color: #333;
+}
+@media only screen and (max-width: 768px) {
+  .companyinfo {
+    width: 100%;
+  }
+  .companyinfo__table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .companyinfo__ttl {
+    min-width: auto;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .companyinfo__txt {
+    font-size: 14px;
+  }
+  .companyinfo .p-cb__item-button__wrapper {
+    margin: 34px auto 60px;
+  }
+}
+
+.p-index-pr__map-link a {
+  background-color: #333;
+}
+
+.p-works-gallery__caption {
+  background-color: #333;
+}
+
+@media only screen and (min-width: 769px) {
+  .p-blog-archive {
+    display: flex;
+    flex-wrap: wrap; /* 折返し指定 */
+    justify-content: space-between;
+  }
+  .p-blog-archive .p-blog-archive__item {
+    width: 32%;
+  }
+  .p-blog-archive__item-title {
+    font-size: 26px;
+  }
+}
+body {
+  font-family: "Outfit", "Noto Sans JP", sans-serif !important;
+}
+
+.p-logo, .p-page-header__title, .p-entry-works__title, .p-modal-cta__catch, .p-header-content__catch, .p-header-content__desc, .p-cb__item-headline, .p-index-about__image-label {
+  font-family: "Outfit", "Noto Sans JP", sans-serif !important;
+}
+
+h1, h2 {
+  letter-spacing: 0.05em !important;
+}
+
+.p-pagetop a {
+  background-color: #cbe3ae !important;
+}
+.p-pagetop a::after {
+  color: #333333;
+}
+
+.p-entry__inner {
+  border-top: none;
+  border-bottom: none;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .p-global-nav a {
+    color: #000 !important;
+  }
+  .p-entry__related-item:nth-last-child(3) {
+    border-bottom: solid 1px #ddd;
+  }
+}
+h1, h2 {
+  font-weight: 700;
+  line-height: 148%;
+  letter-spacing: 0.2em;
+}
+
+p, h3, h4 {
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  line-height: 180%;
+}
+
+.p-cb__item.has-bg + .p-cb__item.has-bg {
+  margin-top: -80px;
+}
+@media only screen and (max-width: 768px) {
+  .p-cb__item.has-bg + .p-cb__item.has-bg {
+    margin-top: -48px;
+  }
+}
+
+.p-cb__item.has-bg {
+  padding-top: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .p-cb__item.has-bg {
+    padding-top: 48px;
+  }
+}
+
+p.p-page-header__desc {
+  line-height: 2;
+}
+
+.l-main {
+  background-color: #f4f4f4;
+}
